@@ -9,7 +9,8 @@
     <Nullable>enable</Nullable>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/temporalio/edu-102-dotnet-code</RepositoryUrl>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFrameworkIdentifier>.NETCoreApp</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>8.0</TargetFrameworkVersion>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <Version>0.1.0</Version>
   </PropertyGroup>
