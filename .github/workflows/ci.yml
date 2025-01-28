@@ -56,6 +56,11 @@ jobs:
         run: dotnet format --verify-no-changes
         working-directory: exercises/testing-code/solution/Worker
 
+      - name: Test testing-code
+        if: ${{ matrix.checkTarget }}
+        run: dotnet test
+        working-directory: exercises/testing-code/solution/Tests
+
       - name: Build using-records
         run: dotnet build
         working-directory: samples/using-records/Worker
