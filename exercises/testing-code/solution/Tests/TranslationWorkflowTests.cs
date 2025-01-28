@@ -6,7 +6,7 @@ using Temporalio.Worker;
 using TemporalioDurableExecution.Workflow;
 using Xunit;
 
-public class TranslationWorkflowTests
+internal class TranslationWorkflowTests
 {
     private static readonly HttpClient Client = new HttpClient();
 
