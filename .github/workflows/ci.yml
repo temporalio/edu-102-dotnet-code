@@ -34,7 +34,6 @@ jobs:
         working-directory: exercises/durable-execution/solution/Worker
 
       - name: Check format durable-executon
-        if: ${{ matrix.checkTarget }}
         run: dotnet format --verify-no-changes
         working-directory: exercises/durable-execution/solution/Worker
       
@@ -43,7 +42,6 @@ jobs:
         working-directory: exercises/debug-activity/solution/Worker
 
       - name: Check format debug-activity
-        if: ${{ matrix.checkTarget }}
         run: dotnet format --verify-no-changes
         working-directory: exercises/debug-activity/solution/Worker
 
@@ -52,12 +50,10 @@ jobs:
         working-directory: exercises/testing-code/solution/Worker
 
       - name: Check format testing-code
-        if: ${{ matrix.checkTarget }}
         run: dotnet format --verify-no-changes
         working-directory: exercises/testing-code/solution/Worker
 
       - name: Test testing-code
-        if: ${{ matrix.checkTarget }}
         run: dotnet test
         working-directory: exercises/testing-code/solution/Tests
 
@@ -66,7 +62,6 @@ jobs:
         working-directory: samples/using-records/Worker
 
       - name: Check format using-records
-        if: ${{ matrix.checkTarget }}
         run: dotnet format --verify-no-changes
         working-directory: samples/using-records/Worker
 
@@ -75,6 +70,5 @@ jobs:
         working-directory: samples/age-estimation/Worker
 
       - name: Check format age-estimation
-        if: ${{ matrix.checkTarget }}
         run: dotnet format --verify-no-changes
         working-directory: samples/age-estimation/Worker
