@@ -26,7 +26,7 @@ var translations = new Dictionary<string, Dictionary<string, string>>
     ["fr"] = new() { ["hello"] = "bonjour", ["goodbye"] = "au revoir", ["thanks"] = "merci", },
     ["lv"] = new() { ["hello"] = "sveiks", ["goodbye"] = "ardievu", ["thanks"] = "paldies", },
     ["mi"] = new() { ["hello"] = "kia ora", ["goodbye"] = "poroporoaki", ["thanks"] = "whakawhetai koe", },
-    ["sk"] = new() { ["hello"] = "ahoj", ["goodbye"] = "zbohom", ["thanks"] = "ďakujem koe", },
+    ["sk"] = new() { ["hello"] = "ahoj", ["goodbye"] = "zbohom", ["thanks"] = "ďakujem", },
     ["tr"] = new() { ["hello"] = "merhaba", ["goodbye"] = "güle güle", ["thanks"] = "teşekkür ederim", },
     ["zu"] = new() { ["hello"] = "hamba kahle", ["goodbye"] = "sawubona", ["thanks"] = "ngiyabonga", },
 };
